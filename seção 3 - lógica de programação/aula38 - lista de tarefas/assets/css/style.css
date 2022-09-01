@@ -33,13 +33,20 @@ form input, form label {
     margin-bottom: 10px;
 }
 
-form input {
+input {
     font-size: 24px;
-    height: 50px;
+    height: 40px;
     padding: 0 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    width: 400px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-form input:focus {
+input:focus {
     outline: 1px solid var(--primary-color);
 }
 
@@ -48,9 +55,8 @@ button {
     background: var(--primary-color);
     color: #fff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     height: 40px;
-    width: 100px;
     cursor: pointer;
     margin-top: 30px;
     margin-left: 30px;
@@ -58,23 +64,4 @@ button {
 
 button:hover {
     background: var(--primary-color-darker);
-}
-
-.paragrafo-resultado, .bad {
-    background: rgb(107, 209, 107);
-    padding: 10px 20px;
-}
-
-.bad {
-    background: rgb(192, 65, 65);
-}
-
-.relogio{
-    font-size: 3em;
-    font-weight: 100;
-}
-
-h1 {
-    font-size: 2em;
-    font-weight: 100;
 }
