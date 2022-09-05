@@ -20,7 +20,7 @@ function criaPessoa(nome, sobrenome, altura, peso) {
         },
 
         fala(assunto) {
-            return `${this.nome} está ${assunto}.`;
+            return `${nome}, não o ${this.nome}, está ${assunto}.`;
         },
 
         altura,
@@ -34,5 +34,5 @@ function criaPessoa(nome, sobrenome, altura, peso) {
 }
 
 const p1 = criaPessoa('Luiz', 'Otavio', 1.8, 80);
-p1.nomeCompleto = 'Maria Oliveira Silva';
-console.log(p1.nomeCompleto);
+console.log(p1.fala('pescando')); // checar linha 23
+// console.log(p1.nomeCompleto);
