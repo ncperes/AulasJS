@@ -22,8 +22,11 @@ const pessoas = [
 //     delete obj.nome;
 //     return obj;
 // });
-//const addId = pessoas.map((obj, index) => obj.id = index + 1); // aqui estou alterando o obj original
 
+// aqui estou alterando o obj original
+//const addId = pessoas.map((obj, index) => obj.id = index + 1);
+
+// aqui crio um novo objeto para nao alterar o original
 const addIdSemAlterarPessoas = pessoas.map(function(obj, index) {
     const newObj = {...obj};
     newObj.id = index + 1;
