@@ -40,4 +40,3 @@ ValidarCpf.prototype.isSequencia = function() {
 };
 
 const cpf = new ValidarCpf('111.111.111-11');
-cpf.validar();
