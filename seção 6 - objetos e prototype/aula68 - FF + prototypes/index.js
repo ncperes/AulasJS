@@ -26,4 +26,5 @@ function criaPessoa(nome, sobrenome) {
 }
 
 const p1 = criaPessoa('Nélio', 'Peres');
-p1.falar();
+// p1.falar();
+console.log(pessoaPrototype);
