@@ -1,0 +1,2 @@
+Passwords com caracteres especiais como '@', ':', '/', '#', '?', '[', ']', deve ser utilizado seu percent encoding
+https://www.mongodb.com/docs/atlas/troubleshoot-connection/#special-characters-in-connection-string-password
